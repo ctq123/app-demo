@@ -10,7 +10,6 @@ const Index = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log("submit ", selectedGoods)
-    // axios.post(url, selectedGoods).then().catch()
   }
 
   const updateSelectedGoods = (item, type='add') => {
